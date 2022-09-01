@@ -1,0 +1,80 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+title: End of Lab Report
+---
+
+<section id="lab-summary">
+    <h2>Lab Summary</h2>
+    <hr>
+    <h3>Congratulations, you have completed the <span class="lab-name"></span> Challenge Lab.</h3>
+    <p>You have accomplished the following:
+    <ul id="objectives">
+        <!-- populated by script -->
+    </ul>
+    </p>
+</section>
+
+<section id="lab-details">
+    <h2>Lab Details</h2>
+    <hr>
+    <ul>
+        <li>Lab Level: </li>
+        <li>Lab Type: </li>
+        <li>Minimum Score: </li>
+        <li>Final Score: </li>
+    </ul>
+    <table>
+        <thead>
+            <tr>
+                <th>Task</th> <!-- Activity Name-->
+                <th>Result</th> <!-- Activity Output -->
+                <th>Score</th><!-- eg. "1 out of 2 points" -->
+            </tr>
+        </thead>
+        <tbody>
+                <!-- populated by script -->
+        </tbody>
+    </table>
+</section>
+
+<section id="series-details">
+    <h2>Series Details</h2>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Last Attempt</th>
+                <th>Result</th> <!-- score or P/F?-->
+            </tr>
+        </thead>
+        <tbody>
+                <!-- populated by script -->
+                <!-- includes current lab, that whole row is bold or has bgcolor -->
+        </tbody>
+    </table>
+</section>
+
+<section id="next-steps">
+    <h2>Next Steps</h2>
+    <hr>
+    <table>
+        <tbody>
+            <tr>
+                <td id="current-lab">
+                    <span class="lab-name"></span>
+                    <p>Current Lab</p>
+                </td>
+                <td id="next-step-1">
+                    <span class="name"></span>
+                    <a href="#" target="_blank"></a>
+                    <p>Next Lab</p>
+                </td>
+                <!-- may only be one next step - additional cells generated dynamically -->
+            </tr>
+        </tbody>
+    </table>
+</section>
